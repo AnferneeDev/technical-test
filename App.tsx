@@ -2,6 +2,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { RootStackParamList } from "./src/types";
 import HomeScreen from "./src/screens/HomeScreen";
+import DetailScreen from "./src/screens/DetailScreen";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -19,6 +20,11 @@ export default function App() {
           name="Home"
           component={HomeScreen}
           options={{ title: "StartupHub" }}
+        />
+        <Stack.Screen
+          name="Detail"
+          component={DetailScreen}
+          options={({ route }) => ({ title: route.params.service.name })}
         />
       </Stack.Navigator>
     </NavigationContainer>
