@@ -52,21 +52,21 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 8,
     borderRadius: 20,
-    backgroundColor: "#16213e",
+    backgroundColor: "#F2F2F7",
     borderWidth: 1,
-    borderColor: "#1a1a3e",
+    borderColor: "#E5E5EA",
   },
   chipActive: {
-    backgroundColor: "#e94560",
-    borderColor: "#e94560",
+    backgroundColor: "#007AFF",
+    borderColor: "#007AFF",
   },
   chipText: {
-    color: "#8888a0",
+    color: "#3A3A3C",
     fontSize: 13,
     fontWeight: "500",
   },
   chipTextActive: {
     color: "#fff",
-    fontWeight: "700",
+    fontWeight: "600",
   },
 });

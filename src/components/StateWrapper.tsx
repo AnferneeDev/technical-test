@@ -25,7 +25,7 @@ export default function StateWrapper({
   if (loading) {
     return (
       <View style={styles.centered}>
-        <ActivityIndicator size="large" color="#e94560" />
+        <ActivityIndicator size="large" color="#007AFF" />
         <Text style={styles.statusText}>Cargando servicios...</Text>
       </View>
     );
@@ -67,38 +67,38 @@ const styles = StyleSheet.create({
     padding: 40,
   },
   statusText: {
-    color: "#8888a0",
+    color: "#8E8E93",
     fontSize: 14,
     marginTop: 12,
     textAlign: "center",
   },
   errorIcon: {
-    color: "#e74c3c",
+    color: "#FF3B30",
     fontSize: 48,
     fontWeight: "800",
     marginBottom: 8,
   },
   errorTitle: {
-    color: "#e74c3c",
+    color: "#FF3B30",
     fontSize: 18,
     fontWeight: "700",
     marginBottom: 4,
   },
   emptyIcon: {
-    color: "#666680",
+    color: "#8E8E93",
     fontSize: 48,
     fontWeight: "800",
     marginBottom: 8,
   },
   emptyTitle: {
-    color: "#8888a0",
+    color: "#000000",
     fontSize: 18,
     fontWeight: "700",
     marginBottom: 4,
   },
   retryButton: {
     marginTop: 20,
-    backgroundColor: "#e94560",
+    backgroundColor: "#007AFF",
     paddingHorizontal: 24,
     paddingVertical: 10,
     borderRadius: 8,

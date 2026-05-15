@@ -108,7 +108,7 @@ export default function DetailScreen({ route, navigation }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0f3460",
+    backgroundColor: "#FFFFFF",
   },
   content: {
     padding: 20,
@@ -120,19 +120,19 @@ const styles = StyleSheet.create({
     marginBottom: 14,
   },
   categoryBadge: {
-    backgroundColor: "#e94560",
+    backgroundColor: "#F2F2F7",
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 6,
   },
   categoryText: {
-    color: "#fff",
+    color: "#007AFF",
     fontSize: 12,
     fontWeight: "600",
     textTransform: "uppercase",
   },
   unavailableBadge: {
-    backgroundColor: "#e74c3c",
+    backgroundColor: "#FF3B30",
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 6,
@@ -143,13 +143,13 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   name: {
-    color: "#e0e0e0",
+    color: "#000000",
     fontSize: 24,
     fontWeight: "800",
     marginBottom: 4,
   },
   provider: {
-    color: "#666680",
+    color: "#8E8E93",
     fontSize: 14,
     marginBottom: 16,
   },
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   price: {
-    color: "#f0a500",
+    color: "#000000",
     fontSize: 28,
     fontWeight: "800",
   },
@@ -172,21 +172,21 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   stars: {
-    color: "#f0a500",
+    color: "#FF9500",
     fontSize: 18,
     letterSpacing: 2,
   },
   ratingText: {
-    color: "#8888a0",
+    color: "#8E8E93",
     fontSize: 14,
   },
   divider: {
     height: 1,
-    backgroundColor: "#1a1a3e",
+    backgroundColor: "#F2F2F7",
     marginVertical: 20,
   },
   sectionLabel: {
-    color: "#8888a0",
+    color: "#8E8E93",
     fontSize: 12,
     fontWeight: "600",
     textTransform: "uppercase",
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
   },
   description: {
-    color: "#c0c0d0",
+    color: "#3A3A3C",
     fontSize: 15,
     lineHeight: 22,
   },
@@ -207,14 +207,14 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   detailLabel: {
-    color: "#666680",
+    color: "#8E8E93",
     fontSize: 12,
     fontWeight: "600",
     marginBottom: 4,
     textTransform: "uppercase",
   },
   detailValue: {
-    color: "#e0e0e0",
+    color: "#000000",
     fontSize: 14,
   },
   tagsRow: {
@@ -224,25 +224,25 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
   },
   tag: {
-    backgroundColor: "#16213e",
+    backgroundColor: "#F2F2F7",
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 8,
     borderWidth: 1,
-    borderColor: "#1a1a3e",
+    borderColor: "#E5E5EA",
   },
   tagText: {
-    color: "#8888a0",
+    color: "#3A3A3C",
     fontSize: 12,
   },
   actionArea: {
     alignItems: "center",
   },
   ctaButton: {
-    backgroundColor: "#e94560",
+    backgroundColor: "#007AFF",
     paddingHorizontal: 32,
     paddingVertical: 14,
-    borderRadius: 10,
+    borderRadius: 12,
     width: "100%",
     alignItems: "center",
   },
@@ -252,20 +252,20 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
   ctaButtonDisabled: {
-    backgroundColor: "#1a1a3e",
+    backgroundColor: "#F2F2F7",
     paddingHorizontal: 32,
     paddingVertical: 14,
-    borderRadius: 10,
+    borderRadius: 12,
     width: "100%",
     alignItems: "center",
   },
   ctaTextDisabled: {
-    color: "#555570",
+    color: "#C7C7CC",
     fontSize: 16,
     fontWeight: "700",
   },
   unavailableReason: {
-    color: "#e74c3c",
+    color: "#FF3B30",
     fontSize: 12,
     textAlign: "center",
     marginTop: 10,

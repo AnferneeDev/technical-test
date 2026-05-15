@@ -95,17 +95,18 @@ export default function HomeScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0f3460",
+    backgroundColor: "#FFFFFF",
   },
   featuredSection: {
     paddingTop: 16,
   },
   sectionTitle: {
-    color: "#e0e0e0",
-    fontSize: 16,
+    color: "#000000",
+    fontSize: 20,
     fontWeight: "700",
     paddingHorizontal: 16,
-    marginBottom: 10,
+    marginBottom: 12,
+    marginTop: 10,
   },
   featuredContent: {
     paddingLeft: 16,

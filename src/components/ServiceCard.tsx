@@ -82,21 +82,21 @@ export default function ServiceCard({
 
 const styles = StyleSheet.create({
   cardFull: {
-    backgroundColor: "#16213e",
+    backgroundColor: "#FFFFFF",
     borderRadius: 12,
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: "#1a1a3e",
+    borderColor: "#E5E5EA",
   },
   cardCompact: {
-    backgroundColor: "#16213e",
+    backgroundColor: "#FFFFFF",
     borderRadius: 10,
     padding: 12,
     marginRight: 10,
     width: 180,
     borderWidth: 1,
-    borderColor: "#1a1a3e",
+    borderColor: "#E5E5EA",
   },
   headerRow: {
     flexDirection: "row",
@@ -109,19 +109,19 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   categoryBadge: {
-    backgroundColor: "#e94560",
+    backgroundColor: "#F2F2F7",
     paddingHorizontal: 8,
     paddingVertical: 3,
     borderRadius: 6,
   },
   categoryText: {
-    color: "#fff",
+    color: "#007AFF",
     fontSize: 11,
     fontWeight: "600",
     textTransform: "uppercase",
   },
   unavailableBadge: {
-    backgroundColor: "#e74c3c",
+    backgroundColor: "#FF3B30",
     paddingHorizontal: 8,
     paddingVertical: 3,
     borderRadius: 6,
@@ -138,19 +138,19 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   name: {
-    color: "#e0e0e0",
+    color: "#000000",
     fontSize: 17,
     fontWeight: "700",
     marginBottom: 6,
   },
   nameCompact: {
-    color: "#e0e0e0",
+    color: "#000000",
     fontSize: 14,
     fontWeight: "600",
     marginBottom: 6,
   },
   description: {
-    color: "#a0a0b0",
+    color: "#3A3A3C",
     fontSize: 13,
     lineHeight: 18,
     marginBottom: 8,
@@ -170,12 +170,12 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   stars: {
-    color: "#f0a500",
+    color: "#FF9500",
     fontSize: 14,
     letterSpacing: 1,
   },
   ratingText: {
-    color: "#8888a0",
+    color: "#8E8E93",
     fontSize: 12,
   },
   footer: {
@@ -184,7 +184,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingTop: 10,
     borderTopWidth: 1,
-    borderTopColor: "#1a1a3e",
+    borderTopColor: "#F2F2F7",
   },
   footerCompact: {
     flexDirection: "row",
@@ -192,19 +192,19 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingTop: 6,
     borderTopWidth: 1,
-    borderTopColor: "#1a1a3e",
+    borderTopColor: "#F2F2F7",
   },
   provider: {
-    color: "#666680",
+    color: "#8E8E93",
     fontSize: 11,
   },
   price: {
-    color: "#f0a500",
+    color: "#000000",
     fontSize: 18,
     fontWeight: "800",
   },
   priceCompact: {
-    color: "#f0a500",
+    color: "#000000",
     fontSize: 20,
     fontWeight: "800",
   },

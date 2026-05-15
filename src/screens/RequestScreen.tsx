@@ -122,7 +122,7 @@ export default function RequestScreen({ route }: Props) {
           value={form.fullName}
           onChangeText={(v) => handleChange("fullName", v)}
           placeholder="Ej. María Rodríguez"
-          placeholderTextColor="#555570"
+          placeholderTextColor="#8E8E93"
           autoCapitalize="words"
         />
         {errors.fullName && (
@@ -137,7 +137,7 @@ export default function RequestScreen({ route }: Props) {
           value={form.phone}
           onChangeText={(v) => handleChange("phone", v)}
           placeholder="Ej. +58 412 123 4567"
-          placeholderTextColor="#555570"
+          placeholderTextColor="#8E8E93"
           keyboardType="phone-pad"
         />
         {errors.phone && (
@@ -152,7 +152,7 @@ export default function RequestScreen({ route }: Props) {
           value={form.preferredDate}
           onChangeText={(v) => handleChange("preferredDate", v)}
           placeholder="Ej. 2026-06-15"
-          placeholderTextColor="#555570"
+          placeholderTextColor="#8E8E93"
           keyboardType="numbers-and-punctuation"
         />
         {errors.preferredDate && (
@@ -189,65 +189,65 @@ export default function RequestScreen({ route }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0f3460",
+    backgroundColor: "#FFFFFF",
   },
   content: {
     padding: 20,
     paddingBottom: 40,
   },
   serviceInfo: {
-    backgroundColor: "#16213e",
+    backgroundColor: "#F2F2F7",
     padding: 16,
-    borderRadius: 10,
+    borderRadius: 12,
     marginBottom: 24,
     borderWidth: 1,
-    borderColor: "#1a1a3e",
+    borderColor: "#E5E5EA",
   },
   serviceName: {
-    color: "#e0e0e0",
+    color: "#000000",
     fontSize: 17,
     fontWeight: "700",
     marginBottom: 4,
   },
   serviceProvider: {
-    color: "#666680",
+    color: "#8E8E93",
     fontSize: 13,
   },
   fieldGroup: {
     marginBottom: 18,
   },
   label: {
-    color: "#c0c0d0",
+    color: "#3A3A3C",
     fontSize: 14,
     fontWeight: "600",
     marginBottom: 6,
   },
   input: {
-    backgroundColor: "#16213e",
+    backgroundColor: "#FFFFFF",
     borderWidth: 1,
-    borderColor: "#1a1a3e",
-    borderRadius: 8,
+    borderColor: "#E5E5EA",
+    borderRadius: 10,
     padding: 12,
-    color: "#e0e0e0",
+    color: "#000000",
     fontSize: 15,
   },
   inputError: {
-    borderColor: "#e74c3c",
+    borderColor: "#FF3B30",
   },
   fieldError: {
-    color: "#e74c3c",
+    color: "#FF3B30",
     fontSize: 12,
     marginTop: 4,
   },
   submitButton: {
-    backgroundColor: "#e94560",
+    backgroundColor: "#007AFF",
     paddingVertical: 14,
-    borderRadius: 10,
+    borderRadius: 12,
     alignItems: "center",
     marginTop: 12,
   },
   submitDisabled: {
-    backgroundColor: "#1a1a3e",
+    backgroundColor: "#F2F2F7",
   },
   submitText: {
     color: "#fff",
@@ -255,48 +255,48 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
   submitTextDisabled: {
-    color: "#555570",
+    color: "#C7C7CC",
   },
   resultContainer: {
     flex: 1,
-    backgroundColor: "#0f3460",
+    backgroundColor: "#FFFFFF",
     alignItems: "center",
     justifyContent: "center",
     padding: 40,
   },
   successIcon: {
-    color: "#2ecc71",
+    color: "#34C759",
     fontSize: 56,
     fontWeight: "800",
     marginBottom: 16,
   },
   successTitle: {
-    color: "#e0e0e0",
+    color: "#000000",
     fontSize: 22,
     fontWeight: "700",
     marginBottom: 8,
   },
   errorIcon: {
-    color: "#e74c3c",
+    color: "#FF3B30",
     fontSize: 56,
     fontWeight: "800",
     marginBottom: 16,
   },
   errorTitle: {
-    color: "#e74c3c",
+    color: "#FF3B30",
     fontSize: 22,
     fontWeight: "700",
     marginBottom: 8,
   },
   resultText: {
-    color: "#8888a0",
+    color: "#8E8E93",
     fontSize: 15,
     textAlign: "center",
     lineHeight: 22,
     marginBottom: 24,
   },
   retryButton: {
-    backgroundColor: "#e94560",
+    backgroundColor: "#007AFF",
     paddingHorizontal: 24,
     paddingVertical: 10,
     borderRadius: 8,
